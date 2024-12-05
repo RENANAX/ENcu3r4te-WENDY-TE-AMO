@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Romántica para Wendy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Wendy</h1>
+        
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="card-front">
+                    <div class="love-logo">
+                        <div class="neon-text">LO</div>
+                        <div class="heart">❤</div>
+                        <div class="neon-text">VE</div>
+                    </div>
+                    <button class="open-card-btn">Abrir Carta ❤</button>
+                </div>
+                
+                <div class="card-inside">
+                    <div class="message-section">
+                        <h2 class="message-title">Mi Querida Wendy</h2>
+                        <p class="love-message">
+                            Cada día a tu lado es un regalo especial. Tu sonrisa ilumina mi mundo y tu amor hace que todo sea mejor. Eres mi inspiración y mi felicidad.Eres mi propi razon,mi niña,mi hembra,mi mascota,mi novia,mi todo,toda mia,cada parte de ti la quiero,te amo wendy.
+                        </p>
+                        <div class="countdown-section">
+                            <p>Te C0g3r3 en: <span id="countdown"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-section">
+                        <h3>Amo tus fotos,tu cara tu cuerpo,me encentas y te amo</h3>
+                        <div class="photo-gallery">
+                            <a href="https://picsum.photos/800/600" data-fancybox="gallery" class="gallery-item">
+                                <img src="ww3.jpeg" alt="Momento especial 1">
+                            </a>
+                            <a href="https://picsum.photos/801/600" data-fancybox="gallery" class="gallery-item">
+                                <img src="w2.jpeg" alt="Momento especial 2">
+                            </a>
+                            <a href="https://picsum.photos/802/600" data-fancybox="gallery" class="gallery-item">
+                                <img src="w1.jpeg" alt="Momento especial 3">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <button class="close-card-btn">Cerrar ❤</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="bg-canvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
